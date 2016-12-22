@@ -104,6 +104,6 @@ vagrant上 : /ec-cube
 
 #### DB情報
 
-DB名: cube3_dev
-ユーザー: cube3_dev_user
-パス:  password
+DB名: cube3_dev  
+ユーザー: cube3_dev_user  
+パス:  password  
