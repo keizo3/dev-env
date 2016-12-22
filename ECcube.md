@@ -42,7 +42,9 @@ cd /ec-cube
 
 ### 設定ファイルの修正
 
-/ec-cube/app/config/eccube/path.yml の内容を修正する
+CSSや画像が読み込めないので　　
+/ec-cube/app/config/eccube/path.yml　　
+の内容を修正する
 
 ```
 #下記内容を修正する
@@ -75,16 +77,12 @@ plugin_urlpath: /plugin
 
 ## 動作確認
 
-* Front
-
-[http://192.168.33.10/](http://192.168.33.10/)
-
+* Front  
+[http://192.168.33.10/](http://192.168.33.10/)  
 frontのユーザーは[新規会員登録](http://192.168.33.10/entry)から作成
 
-* Admin
-
-[http://192.168.33.10/admin](http://192.168.33.10/admin)
-
+* Admin  
+[http://192.168.33.10/admin](http://192.168.33.10/admin)  
 ID: admin  
 パス: password  
 
