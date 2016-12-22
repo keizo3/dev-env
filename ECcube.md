@@ -42,8 +42,8 @@ cd /ec-cube
 
 ### 設定ファイルの修正
 
-CSSや画像が読み込めないので　　
-/ec-cube/app/config/eccube/path.yml　　
+CSSや画像が読み込めないので  
+/ec-cube/app/config/eccube/path.yml  
 の内容を修正する
 
 ```
