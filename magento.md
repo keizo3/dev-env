@@ -7,9 +7,22 @@
 ```
 # magento+vagrantのリポジトリをclone
 git clone git@github.com:paliarush/magento2-vagrant-for-developers.git vagrant-magento
+```
 
-# vagrant起動+magento3インストール
+```
+ # 設定ファイル修正
 cd vagrant-magento/
+cp etc/config.yaml.dist etc/config.yaml
+vi etc/config.yaml
+
+ce: "git@github.com:magento/magento2.git"
+# ↓　
+ce: "git@github.com:magento/magento2.git::2.1"
+# magentoのバージョンを指定する
+```
+
+```
+# vagrant起動+magento3インストール
 bash init_project.sh
 ```
 
