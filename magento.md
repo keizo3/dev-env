@@ -1,4 +1,4 @@
-# magento3 + vagrant
+# magento2 + vagrant
 
 ## 下記URLを参考にする
 [https://github.com/paliarush/magento2-vagrant-for-developers](https://github.com/paliarush/magento2-vagrant-for-developers)
@@ -56,4 +56,9 @@ install_sample_data: 1
 ```
 cd vagrant-magento
 bash m-switch-to-ce -f
+```
+または、vagrant上でmagentoディレクトリ配下で以下のコマンドを実行
+```
+php bin/magento sampledata:deploy
+php bin/magento setup:upgrade
 ```
